@@ -23,7 +23,7 @@ Existing approaches to mitigate this issue often involve:
 
 The paper argues that many policy regularization methods suffer because the policy classes they use (e.g., Gaussian policies) are not expressive enough to accurately model complex, potentially multimodal, behavior policies often found in offline datasets. This can lead to improper regularization and suboptimal solutions. Diffusion models, known for their ability to model complex distributions, offer a promising alternative.
 
-### Core Idea: Diffusion Q-Learning (Diffusion-QL)
+## Core Idea: Diffusion Q-Learning (Diffusion-QL)
 
 The central contribution of the referenced paper is the **Diffusion Q-Learning (Diffusion-QL)** algorithm. This algorithm innovatively employs a **Conditional Diffusion Model** to represent the policy $\pi_{\theta}(a|s)$ in reinforcement learning. Given the current state $s$, this model generates an action $a$ through an Iterative Denoising Process.
 
@@ -33,12 +33,12 @@ The primary features and advantages of Diffusion-QL include:
 
 2.   **Integrated Policy Regularization and Improvement**: The training objective for the diffusion policy in Diffusion-QL skillfully combines two crucial components:
     **Behavior Cloning Loss $\mathcal{L}_d(\theta)$**: This loss term (Equation 2 in the paper) drives the diffusion model to learn and mimic the behavior policy $\pi_b$ present in the offline dataset $\mathcal{D}$. This constitutes a powerful, sample-based implicit regularization mechanism, encouraging the learned policy to generate actions similar to those in the training data, thereby effectively constraining the policy to be "In-Distribution" and avoiding blind exploration in unknown regions. This is achieved by training a noise prediction model $\epsilon_{\theta}(a^i, s, i)$ to accurately predict the noise added to clean actions from the dataset during the diffusion process.
-    **Q-Learning Guidance / Policy Improvement Term $\mathcal{L}_q(\theta)$**: This loss term injects guidance signals, derived from an independently learned action-value function (Q-function) $Q_{\phi}(s,a)$, into the diffusion model's training process. It encourages the policy network $\pi_{\theta}$ to generate actions $a^0$ (sampled from $\pi_{\theta}$) that maximize the learned Q-function values (i.e., maximizing $ \mathbb{E}_{s \sim \mathcal{D}, a^0 \sim \pi_{\theta}} [Q_{\phi}(s, a^0)] $). Crucially, the gradient from the Q-value function can be backpropagated through the reparameterized sampling process of the diffusion model, directly optimizing the policy parameters.
+    **Q-Learning Guidance / Policy Improvement Term $\mathcal{L}_q(\theta)$**: This loss term injects guidance signals, derived from an independently learned action-value function (Q-function) $Q_{\phi}(s,a)$, into the diffusion model's training process. It encourages the policy network $\pi_{\theta}$ to generate actions $a^0$ (sampled from $\pi_{\theta}$) that maximize the learned Q-function values (i.e., maximizing $E_{s \sim \mathcal{D}, a^0 \sim \pi_{\theta}} [Q_{\phi}(s, a^0)]$). Crucially, the gradient from the Q-value function can be backpropagated through the reparameterized sampling process of the diffusion model, directly optimizing the policy parameters.
 
-* **Offline Model-Free Approach**:
+3.  **Offline Model-Free Approach**:
     Diffusion-QL is a model-free reinforcement learning method. It does not rely on learning a dynamics model of the environment but instead learns the policy and value functions directly from a static, pre-collected dataset.
 
-* **Standard Q-Learning Components**:
+4.  **Standard Q-Learning Components**:
     The action-value function $Q_{\phi}(s,a)$ is learned in a conventional manner by minimizing the Bellman error. To enhance training stability and mitigate Q-value overestimation, the algorithm incorporates established techniques such as **Double Q-Learning** and **Target Networks**.
 
 The experimental results in the paper robustly demonstrate that the outstanding expressiveness of the diffusion policy, coupled with the effective integration of behavior cloning (as an implicit regularization) and Q-learning guidance, are the key contributors to Diffusion-QL's state-of-the-art performance across numerous D4RL benchmark tasks.
@@ -52,11 +52,11 @@ Our primary goal for this project is to **faithfully implement the Diffusion-QL 
     * Implement the forward noising process (for training) and the reverse denoising sampling process.
     * Incorporate the specified noise schedule.
 2.  **Implementing the Q-Networks**:
-    * Set up two Q-networks ($Q_{\phi_1}, Q_{\phi_2}$) and their corresponding target Q-networks ($Q_{\phi_1'}, Q_{\phi_2'}$).
-    * Implement a target policy network ($\pi_{\theta'}$ or $\epsilon_{\theta'}$).
+    * Set up two Q-networks $Q_{\phi_1}, Q_{\phi_2}$ and their corresponding target Q-networks ($Q_{\phi_1'}, Q_{\phi_2'}$).
+    * Implement a target policy network $\pi_{\theta'}$ or $\epsilon_{\theta'}$.
 3.  **Implementing the Training Loop (Algorithm 1 in the paper)**:
     * Implement the Q-value function learning step, including sampling next actions from the target policy and using the minimum of target Q-values (Equation 4).
-    * Implement the policy learning step, minimizing the combined loss $\mathcal{L}(\theta) = \mathcal{L}_d(\theta) - \alpha \cdot \mathbb{E}[Q_{\phi}(s,a^0)]$ (Equation 3), including the Q-value normalization for $\alpha$.
+    * Implement the policy learning step, minimizing the combined loss $L(\theta) = L_d(\theta) - \alpha \cdot E[Q_{\phi}(s,a^0)]$ (Equation 3), including the Q-value normalization for $\alpha$.
     * Implement soft updates for all target networks.
 4.  **Evaluation**:
     * Set up experiments on selected D4RL benchmark tasks.
@@ -64,7 +64,15 @@ Our primary goal for this project is to **faithfully implement the Diffusion-QL 
     * Utilize the D4RL normalized score for performance comparison.
 5.  **Analysis (Time Permitting)**:
     * Investigate the effect of the number of diffusion steps <span class="math-inline">N</span> on performance and computational cost, as discussed in the paper (Section 4, Figure 2; Section 5, Figure 3).
-    * Analyze the interplay between the behavior cloning term <span class="math-inline">\\mathcal\{L\}\_d</span> and the Q-learning term <span class="math-inline">\\mathcal\{L\}\_q</span>.
+    * Analyze the interplay between the behavior cloning term and the Q-learning term.
 
 ## Project Objective 2: Innovations / Further Exploration
+
+We plan to explore the following innovative directions aimed at enhancing algorithm performance and efficiency:
+
+1.  **Enhancing the Training and Sampling Efficiency of Diffusion Models in Diffusion Q-Learning:** Diffusion models excel at generating high-quality samples, but their iterative sampling process can lead to slower training and inference. We will investigate and apply state-of-the-art diffusion model acceleration techniques.
+
+2.  **Optimizing and Adjusting Q-Learning Techniques within Diffusion Q-Learning:** The core of Diffusion Q-Learning lies in leveraging the Q-function to guide the policy learning of the diffusion model. We will explore possibilities for adjusting and optimizing the existing Q-Learning components to achieve more stable and efficient policy improvement.
+
+This list represents initial directions, and additional areas for innovation will be considered as the project progresses.
 

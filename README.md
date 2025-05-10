@@ -43,7 +43,7 @@ The primary features and advantages of Diffusion-QL include:
 
 The experimental results in the paper robustly demonstrate that the outstanding expressiveness of the diffusion policy, coupled with the effective integration of behavior cloning (as an implicit regularization) and Q-learning guidance, are the key contributors to Diffusion-QL's state-of-the-art performance across numerous D4RL benchmark tasks.
 
-## Project Objectives 1: Implement the algorithm described in the original paper
+## Project Objective 1: Implement the algorithm described in the original paper
 
 Our primary goal for this project is to **faithfully implement the Diffusion-QL algorithm** as detailed in the paper. This involves:
 

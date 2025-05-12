@@ -24,7 +24,16 @@ parser.add_argument("--mode", default='whole_grad', type=str)
 args = parser.parse_args()
 
 r_fun_std = 0.25
-device = f"cuda:{args.device}" if torch.cuda.is_available() else "cpu"
+if torch.cuda.is_available():
+    device = torch.device("cuda:0")
+    print("Using CUDA GPU")
+elif torch.backends.mps.is_available() and torch.backends.mps.is_built():
+    device = torch.device("mps")
+    print("Using MPS (Apple Silicon GPU)")
+else:
+    device = torch.device("cpu")
+    print("Using CPU")
+print(f"Selected device: {device}")
 
 eta = args.eta
 seed = args.seed

@@ -208,7 +208,17 @@ if __name__ == "__main__":
     # parser.add_argument("--gn", default=-1.0, type=float)
 
     args = parser.parse_args()
-    args.device = f"cuda:{args.device}" if torch.cuda.is_available() else "cpu"
+    # args.device = f"cuda:{args.device}" if torch.cuda.is_available() else "cpu"
+    if torch.cuda.is_available():
+        args.device = torch.device("cuda:0")
+        print("Using CUDA GPU")
+    elif torch.backends.mps.is_available() and torch.backends.mps.is_built():
+        args.device = torch.device("mps")
+        print("Using MPS (Apple Silicon GPU)")
+    else:
+        args.device = torch.device("cpu")
+        print("Using CPU")
+    print(f"Selected device: {args.device}")
     args.output_dir = f'{args.dir}'
 
     args.num_epochs = hyperparameters[args.env_name]['num_epochs']

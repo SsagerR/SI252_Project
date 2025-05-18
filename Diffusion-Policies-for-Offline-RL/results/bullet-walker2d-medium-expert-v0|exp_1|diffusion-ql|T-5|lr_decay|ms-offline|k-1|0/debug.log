@@ -1,0 +1,33 @@
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] --------------  ------------
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Trained Epochs  50
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] BC Loss          0.0800828
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] QL Loss         -1.00008
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Actor Loss      -0.919995
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Critic Loss      2.58953e+07
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] --------------  ------------
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] -------------------------  -----------
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Average Episodic Reward     9.24423
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Average Episodic N-Reward  -0.00452961
+25-05-18.02:53|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] -------------------------  -----------
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] --------------  ------------
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Trained Epochs  100
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] BC Loss           0.0442148
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] QL Loss          -1
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Actor Loss       -0.955789
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Critic Loss       6.9549e+08
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] --------------  ------------
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] -------------------------  -----------
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Average Episodic Reward     8.32763
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Average Episodic N-Reward  -0.00509994
+25-05-18.02:59|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] -------------------------  -----------
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] --------------  -------------
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Trained Epochs  150
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] BC Loss           0.0449866
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] QL Loss          -0.999994
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Actor Loss       -0.955007
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Critic Loss       1.61697e+11
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] --------------  -------------
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] -------------------------  ----------
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Average Episodic Reward    10.2916
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] Average Episodic N-Reward  -0.0038779
+25-05-18.03:06|[bullet-walker2d-medium-expert-v0|exp_1|diffusion-ql|T-5|lr_decay|ms-offline|k-1|0] -------------------------  ----------

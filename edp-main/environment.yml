@@ -1,0 +1,5 @@
+name: edp
+channels:
+  - conda-forge
+  - defaults
+prefix: /opt/anaconda3/envs/edp

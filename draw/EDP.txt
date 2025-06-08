@@ -1,0 +1,111 @@
+Episode 1/100: Timesteps = 1000, Raw Return = 4687.90, Normalized Score = 0.40
+Episode 2/100: Timesteps = 1000, Raw Return = 4807.74, Normalized Score = 0.41
+Episode 3/100: Timesteps = 1000, Raw Return = 4899.47, Normalized Score = 0.42
+Episode 4/100: Timesteps = 1000, Raw Return = 4723.71, Normalized Score = 0.40
+Episode 5/100: Timesteps = 1000, Raw Return = 4921.79, Normalized Score = 0.42
+Episode 6/100: Timesteps = 1000, Raw Return = 4851.33, Normalized Score = 0.41
+Episode 7/100: Timesteps = 1000, Raw Return = 4669.29, Normalized Score = 0.40
+Episode 8/100: Timesteps = 1000, Raw Return = 4069.67, Normalized Score = 0.35
+Episode 9/100: Timesteps = 1000, Raw Return = 5039.54, Normalized Score = 0.43
+Episode 10/100: Timesteps = 1000, Raw Return = 4770.77, Normalized Score = 0.41
+Episode 11/100: Timesteps = 1000, Raw Return = 4919.40, Normalized Score = 0.42
+Episode 12/100: Timesteps = 1000, Raw Return = 4834.79, Normalized Score = 0.41
+Episode 13/100: Timesteps = 1000, Raw Return = 4477.29, Normalized Score = 0.38
+Episode 14/100: Timesteps = 1000, Raw Return = 757.94, Normalized Score = 0.08
+Episode 15/100: Timesteps = 1000, Raw Return = 4856.80, Normalized Score = 0.41
+Episode 16/100: Timesteps = 1000, Raw Return = 5145.47, Normalized Score = 0.44
+Episode 17/100: Timesteps = 1000, Raw Return = 5236.90, Normalized Score = 0.44
+Episode 18/100: Timesteps = 1000, Raw Return = 4947.21, Normalized Score = 0.42
+Episode 19/100: Timesteps = 1000, Raw Return = 4199.20, Normalized Score = 0.36
+Episode 20/100: Timesteps = 1000, Raw Return = 4757.15, Normalized Score = 0.41
+Episode 21/100: Timesteps = 1000, Raw Return = 4766.02, Normalized Score = 0.41
+Episode 22/100: Timesteps = 1000, Raw Return = 4724.56, Normalized Score = 0.40
+Episode 23/100: Timesteps = 1000, Raw Return = 4949.89, Normalized Score = 0.42
+Episode 24/100: Timesteps = 1000, Raw Return = 4964.81, Normalized Score = 0.42
+Episode 25/100: Timesteps = 1000, Raw Return = 4644.74, Normalized Score = 0.40
+Episode 26/100: Timesteps = 1000, Raw Return = 2270.82, Normalized Score = 0.21
+Episode 27/100: Timesteps = 1000, Raw Return = 4962.69, Normalized Score = 0.42
+Episode 28/100: Timesteps = 1000, Raw Return = 4304.49, Normalized Score = 0.37
+Episode 29/100: Timesteps = 1000, Raw Return = 4797.50, Normalized Score = 0.41
+Episode 30/100: Timesteps = 1000, Raw Return = 4653.81, Normalized Score = 0.40
+Episode 31/100: Timesteps = 1000, Raw Return = 4770.04, Normalized Score = 0.41
+Episode 32/100: Timesteps = 1000, Raw Return = 4854.84, Normalized Score = 0.41
+Episode 33/100: Timesteps = 1000, Raw Return = 4892.25, Normalized Score = 0.42
+Episode 34/100: Timesteps = 1000, Raw Return = 5029.78, Normalized Score = 0.43
+Episode 35/100: Timesteps = 1000, Raw Return = 4615.87, Normalized Score = 0.39
+Episode 36/100: Timesteps = 1000, Raw Return = 5129.89, Normalized Score = 0.44
+Episode 37/100: Timesteps = 1000, Raw Return = 4516.97, Normalized Score = 0.39
+Episode 38/100: Timesteps = 1000, Raw Return = 5250.71, Normalized Score = 0.45
+Episode 39/100: Timesteps = 1000, Raw Return = 4549.89, Normalized Score = 0.39
+Episode 40/100: Timesteps = 1000, Raw Return = 4264.53, Normalized Score = 0.37
+Episode 41/100: Timesteps = 1000, Raw Return = 5091.04, Normalized Score = 0.43
+Episode 42/100: Timesteps = 1000, Raw Return = 4944.67, Normalized Score = 0.42
+Episode 43/100: Timesteps = 1000, Raw Return = 4919.51, Normalized Score = 0.42
+Episode 44/100: Timesteps = 1000, Raw Return = 4174.16, Normalized Score = 0.36
+Episode 45/100: Timesteps = 1000, Raw Return = 4971.92, Normalized Score = 0.42
+Episode 46/100: Timesteps = 1000, Raw Return = 4732.24, Normalized Score = 0.40
+Episode 47/100: Timesteps = 1000, Raw Return = 4546.10, Normalized Score = 0.39
+Episode 48/100: Timesteps = 1000, Raw Return = 4799.22, Normalized Score = 0.41
+Episode 49/100: Timesteps = 1000, Raw Return = 4106.94, Normalized Score = 0.35
+Episode 50/100: Timesteps = 1000, Raw Return = 5010.70, Normalized Score = 0.43
+Episode 51/100: Timesteps = 1000, Raw Return = 4847.55, Normalized Score = 0.41
+Episode 52/100: Timesteps = 1000, Raw Return = 1867.74, Normalized Score = 0.17
+Episode 53/100: Timesteps = 1000, Raw Return = 4758.86, Normalized Score = 0.41
+Episode 54/100: Timesteps = 1000, Raw Return = 4575.38, Normalized Score = 0.39
+Episode 55/100: Timesteps = 1000, Raw Return = 2350.20, Normalized Score = 0.21
+Episode 56/100: Timesteps = 1000, Raw Return = 4735.64, Normalized Score = 0.40
+Episode 57/100: Timesteps = 1000, Raw Return = 4857.56, Normalized Score = 0.41
+Episode 58/100: Timesteps = 1000, Raw Return = 5073.16, Normalized Score = 0.43
+Episode 59/100: Timesteps = 1000, Raw Return = 4810.80, Normalized Score = 0.41
+Episode 60/100: Timesteps = 1000, Raw Return = 4954.27, Normalized Score = 0.42
+Episode 61/100: Timesteps = 1000, Raw Return = 4758.77, Normalized Score = 0.41
+Episode 62/100: Timesteps = 1000, Raw Return = 4450.88, Normalized Score = 0.38
+Episode 63/100: Timesteps = 1000, Raw Return = 3781.35, Normalized Score = 0.33
+Episode 64/100: Timesteps = 1000, Raw Return = 4763.31, Normalized Score = 0.41
+Episode 65/100: Timesteps = 1000, Raw Return = 4673.59, Normalized Score = 0.40
+Episode 66/100: Timesteps = 1000, Raw Return = 5107.81, Normalized Score = 0.43
+Episode 67/100: Timesteps = 1000, Raw Return = 4755.26, Normalized Score = 0.41
+Episode 68/100: Timesteps = 1000, Raw Return = 4519.35, Normalized Score = 0.39
+Episode 69/100: Timesteps = 1000, Raw Return = 4943.58, Normalized Score = 0.42
+Episode 70/100: Timesteps = 1000, Raw Return = 4903.37, Normalized Score = 0.42
+Episode 71/100: Timesteps = 1000, Raw Return = 4832.89, Normalized Score = 0.41
+Episode 72/100: Timesteps = 1000, Raw Return = 4875.34, Normalized Score = 0.42
+Episode 73/100: Timesteps = 1000, Raw Return = 4778.79, Normalized Score = 0.41
+Episode 74/100: Timesteps = 1000, Raw Return = 4903.53, Normalized Score = 0.42
+Episode 75/100: Timesteps = 1000, Raw Return = 4940.83, Normalized Score = 0.42
+Episode 76/100: Timesteps = 1000, Raw Return = 4744.51, Normalized Score = 0.40
+Episode 77/100: Timesteps = 1000, Raw Return = 4794.98, Normalized Score = 0.41
+Episode 78/100: Timesteps = 1000, Raw Return = 4725.68, Normalized Score = 0.40
+Episode 79/100: Timesteps = 1000, Raw Return = 4911.87, Normalized Score = 0.42
+Episode 80/100: Timesteps = 1000, Raw Return = 4626.25, Normalized Score = 0.40
+Episode 81/100: Timesteps = 1000, Raw Return = 4715.74, Normalized Score = 0.40
+Episode 82/100: Timesteps = 1000, Raw Return = 5079.48, Normalized Score = 0.43
+Episode 83/100: Timesteps = 1000, Raw Return = 536.32, Normalized Score = 0.07
+Episode 84/100: Timesteps = 1000, Raw Return = 5062.58, Normalized Score = 0.43
+Episode 85/100: Timesteps = 1000, Raw Return = 4861.42, Normalized Score = 0.41
+Episode 86/100: Timesteps = 1000, Raw Return = 4563.19, Normalized Score = 0.39
+Episode 87/100: Timesteps = 1000, Raw Return = 4383.09, Normalized Score = 0.38
+Episode 88/100: Timesteps = 1000, Raw Return = 5099.50, Normalized Score = 0.43
+Episode 89/100: Timesteps = 1000, Raw Return = 4890.25, Normalized Score = 0.42
+Episode 90/100: Timesteps = 1000, Raw Return = 520.89, Normalized Score = 0.06
+Episode 91/100: Timesteps = 1000, Raw Return = 4698.37, Normalized Score = 0.40
+Episode 92/100: Timesteps = 1000, Raw Return = 4484.62, Normalized Score = 0.38
+Episode 93/100: Timesteps = 1000, Raw Return = 5094.23, Normalized Score = 0.43
+Episode 94/100: Timesteps = 1000, Raw Return = 5034.29, Normalized Score = 0.43
+Episode 95/100: Timesteps = 1000, Raw Return = 5017.16, Normalized Score = 0.43
+Episode 96/100: Timesteps = 1000, Raw Return = 4836.56, Normalized Score = 0.41
+Episode 97/100: Timesteps = 1000, Raw Return = 4996.47, Normalized Score = 0.43
+Episode 98/100: Timesteps = 1000, Raw Return = 4927.60, Normalized Score = 0.42
+Episode 99/100: Timesteps = 1000, Raw Return = 4742.26, Normalized Score = 0.40
+Episode 100/100: Timesteps = 1000, Raw Return = 4357.78, Normalized Score = 0.37
+
+==================================================
+Evaluation Summary
+==================================================
+Number of episodes: 100
+Average Timesteps per Episode: 1000.00 +/- 0.00
+Average Raw Return: 4573.09 +/- 867.01
+Average Normalized Score: 0.39 +/- 0.07
+Min Normalized Score: 0.06
+Max Normalized Score: 0.45
+==================================================
